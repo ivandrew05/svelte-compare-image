@@ -36,7 +36,8 @@
     <input
       type="range"
       min="0"
-      max="100"
+      max="100",
+      step="0.25",
       value={sliderPosition}
       on:input={handleInput}
       on:change={handleInput}
