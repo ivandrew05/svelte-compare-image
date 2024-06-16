@@ -45,13 +45,12 @@
     };
   };
 
-  let handleSize = 2.5;
-  let handleBackgroundColor = "rgba(0, 0, 0, 0.6)";
-  let handleBackgroundImage =
-    'url(\'data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 12H21M3 12L7 8M3 12L7 16M21 12L17 16M21 12L17 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>\')';
-  let handleBorderWidth = 0.125;
+  let handleSize = 2.75;
+  let handleBackgroundColor = "rgba(0, 0, 0, 0)";
+  let handleBackgroundImage = `url('data:image/svg+xml,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polygon fill="%23FFFFFF" points="6.36,18 0,12 6.36,6"/><polygon fill="%23FFFFFF" points="17.64,18 24,12 17.64,6"/></svg>')`;
+  let handleBorderWidth = 0.1875;
   let sliderColor = "#ffffff";
-  let sliderWidth = 0.125;
+  let sliderWidth = 0.1875;
 
   $: snippet = `<CompareImage
   imageLeftSrc="https://via.placeholder.com/${leftWidth}x${leftHeight}/ffaa00/ffffff/?text=Example+Text"
